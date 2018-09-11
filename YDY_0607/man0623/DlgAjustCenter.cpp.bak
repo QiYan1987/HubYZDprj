@@ -1,0 +1,98 @@
+// DlgAjustCenter.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "wilson6.h"
+#include "DlgAjustCenter.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CDlgAjustCenter dialog
+
+
+CDlgAjustCenter::CDlgAjustCenter(CWnd* pParent /*=NULL*/)
+	: CDialog(CDlgAjustCenter::IDD, pParent)
+{
+	//{{AFX_DATA_INIT(CDlgAjustCenter)
+	m_dFastMoveDistance = 0.0;
+	m_dTargetEccentricity = 0.0;
+	m_intTimes = 0;
+	//}}AFX_DATA_INIT
+}
+
+
+void CDlgAjustCenter::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CDlgAjustCenter)
+	DDX_Text(pDX, IDC_EDIT_FASTMOVEDISTANCE, m_dFastMoveDistance);
+	DDX_Text(pDX, IDC_EDIT_TARGETECCENTRICITY, m_dTargetEccentricity);
+	DDX_Text(pDX, IDC_EDIT_TIMES, m_intTimes);
+	//}}AFX_DATA_MAP
+}
+
+
+BEGIN_MESSAGE_MAP(CDlgAjustCenter, CDialog)
+	//{{AFX_MSG_MAP(CDlgAjustCenter)
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CDlgAjustCenter message handlers
+
+BOOL CDlgAjustCenter::OnInitDialog() 
+{
+	CDialog::OnInitDialog();
+	
+	// TODO: Add extra initialization here
+
+	TCHAR   szPath[1024];
+    ::GetModuleFileName(NULL,szPath,1024);
+	CString   strPath   =   szPath; 
+	int index=strPath.ReverseFind(_T('\\'));
+	strPath = strPath.Left(index);
+	index =strPath.ReverseFind(_T('\\'));
+	strPath = strPath.Left(index+1);
+	strPath+="canshu.ini";
+	CString a;//更新CMainframe里面的值
+	::GetPrivateProfileString("调整测量","m_dFastMoveDistance","lisi",a.GetBuffer(100),100,strPath);
+	m_dFastMoveDistance=atof(a);
+	::GetPrivateProfileString("调整测量","m_dTargetEccentricity","lisi",a.GetBuffer(100),100,strPath);
+	m_dTargetEccentricity=atof(a);
+	::GetPrivateProfileString("调整测量","m_intTimes","lisi",a.GetBuffer(100),100,strPath);
+	m_intTimes=atoi(a);
+
+    UpdateData(FALSE);
+	return TRUE;  // return TRUE unless you set the focus to a control
+	              // EXCEPTION: OCX Property Pages should return FALSE
+}
+
+
+void CDlgAjustCenter::OnOK() 
+{
+	// TODO: Add extra validation here
+	UpdateData(TRUE);
+	TCHAR   szPath[1024];
+    ::GetModuleFileName(NULL,szPath,1024);
+	CString   strPath   =   szPath; 
+	int index=strPath.ReverseFind(_T('\\'));
+	strPath = strPath.Left(index);
+	index =strPath.ReverseFind(_T('\\'));
+	strPath = strPath.Left(index+1);
+	strPath+="canshu.ini";
+	CString A1;                // 将更新后的值转换成字符串形式写进INI文件里面
+	A1.Format("%f",m_dFastMoveDistance);
+	:: WritePrivateProfileString("调整测量","m_dFastMoveDistance",A1,strPath);
+	A1.Format("%f",m_dTargetEccentricity);
+	:: WritePrivateProfileString("调整测量","m_dTargetEccentricity",A1,strPath);
+	A1.Format("%d",m_intTimes);
+	:: WritePrivateProfileString("调整测量","m_intTimes",A1,strPath);
+	CDialog::OnOK();
+}
+
+

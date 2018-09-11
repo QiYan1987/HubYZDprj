@@ -1,0 +1,1879 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Wilson6.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Wilson6.ico"
+IDI_ICON1               ICON                    "res\\注销.ico"
+IDI_ICON2               ICON                    "res\\登录.ico"
+IDI_ICON3               ICON                    "res\\icon3.ico"
+IDI_ICON4               ICON                    "res\\icon4.ico"
+IDI_ICON5               ICON                    "res\\icon5.ico"
+IDI_ICON6               ICON                    "res\\icon6.ico"
+IDI_ICON7               ICON                    "res\\icon7.ico"
+IDI_ICON8               ICON                    "res\\icon8.ico"
+IDI_ICON11              ICON                    "res\\icon11.ico"
+IDI_ICON12              ICON                    "res\\icon12.ico"
+IDI_ICON13              ICON                    "res\\icon13.ico"
+IDI_ICON17              ICON                    "res\\icon17.ico"
+IDI_RDS                 ICON                    "res\\kebiao.ico"
+IDI_Enable              ICON                    "res\\enable.ico"
+IDI_ICON10              ICON                    "res\\icon10.ico"
+IDI_ICONGO              ICON                    "res\\icon21.ico"
+IDI_ZXD                 ICON                    "res\\zxd.ico"
+IDI_SETORIGIN           ICON                    "res\\setorigi.ico"
+IDI_SETOTHERS           ICON                    "res\\setother.ico"
+IDI_PXD                 ICON                    "res\\pxd.ico"
+IDI_PMD                 ICON                    "res\\pmd.ico"
+IDI_ResetDeal           ICON                    "res\\ico00005.ico"
+IDI_FenDuanChuLi        ICON                    "res\\ico00012.ico"
+IDI_FOLDER              ICON                    "res\\项目3.ico"
+IDI_CYD                 ICON                    "res\\icon25.ico"
+IDI_PIST                ICON                    "res\\pist.ico"
+IDI_tleft               ICON                    "res\\tleft.ico"
+IDI_tright              ICON                    "res\\tright.ico"
+IDI_Disable             ICON                    "res\\disenable.ico"
+IDI_DELETE              ICON                    "res\\删除(新).ico"
+IDI_chuli               ICON                    "res\\chuli.ico"
+IDI_yuanduchuli         ICON                    "res\\icon30.ico"
+IDI_CZD                 ICON                    "res\\czd.ico"
+IDI_TXD                 ICON                    "res\\txd.ico"
+IDI_TZD                 ICON                    "res\\tzd.ico"
+IDI_CRT                 ICON                    "res\\ico00001.ico"
+IDI_TRT                 ICON                    "res\\trt.ico"
+IDI_BGFX                ICON                    "res\\BGFX.ico"
+IDI_PPFX                ICON                    "res\\PPFX.ico"
+IDI_AmplifyScale        ICON                    "res\\ico00002.ico"
+IDI_ICON30              ICON                    "res\\ico00003.ico"
+IDI_BTNTSTOP            ICON                    "res\\icon32.ico"
+IDI_BTNTBEGIN           ICON                    "res\\ico00004.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "链接(&N)\tCtrl+N",              ID_Connect
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)\t Ctrl+P",             ID_Print
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Wilson6(&A)...",           ID_APP_ABOUT
+    END
+END
+
+IDR_WILSONTYPE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "注销(&D)\t Ctrl+Q",             ID_UnConnect
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)\t Ctrl+P",             ID_Print
+        MENUITEM SEPARATOR
+        MENUITEM "邻片跳动打印",                      ID_LpPrint
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "电机状态",                        ID_MOTORSTATE
+    END
+    POPUP "数据采集(&T)"
+    BEGIN
+        MENUITEM "圆度测量",                        ID_DAQ_CIRCLE_SEMIAU
+        MENUITEM "圆柱度测量",                       ID_DAQ_CYD_SEMIAU
+        MENUITEM "直线度测量",                       ID_DAQ_STRAIGHTNESS
+        MENUITEM "平面度测量",                       ID_DAQ_PLANENESS
+        MENUITEM "平面平行度测量",                     ID_DAQ_pmPLANENESS
+        MENUITEM "垂直平行度测量",                     ID_DAQ_PARA
+        MENUITEM "同轴(同心)度测量",                   ID_DAQ_AXIALITY
+        MENUITEM "垂直度测量",                       ID_DAQ_SQUARENESS
+        MENUITEM SEPARATOR
+        MENUITEM "测量动态显示",                      ID_DYNAMICDIPLAY
+    END
+    POPUP "数据处理(&A)"
+    BEGIN
+        MENUITEM "资源管理",                        ID_RESOURCEMANAGEMENT
+        MENUITEM SEPARATOR
+        MENUITEM "圆度",                          ID_DoCircle
+        MENUITEM "圆柱度",                         ID_DoCylinder
+        MENUITEM "直线度",                         ID_DoStraightness
+        MENUITEM "平行度",                         ID_DoParallelism
+        MENUITEM "平面度",                         ID_DoPlaneness
+        MENUITEM "同轴度",                         ID_DOCOAXIALITY
+        MENUITEM "垂直度",                         ID_DOVERTICALITY
+    END
+    POPUP "运动控制(&M)"
+    BEGIN
+        POPUP "单轴控制"
+        BEGIN
+            MENUITEM "立柱上移",                        ID_LIZHU_DOWN
+            MENUITEM "立柱下移",                        ID_LIZHU_UP
+            MENUITEM "导轨左移",                        ID_DAOGUI_LEFT
+            MENUITEM "导轨右移",                        ID_DAOGUI_RIGHT
+            MENUITEM "传感器左靠近",                      ID_SENSOR_SIDE
+            MENUITEM "传感器下靠近",                      ID_SENSOR_DOWN
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "全部停止",                        IDC_STOPALL
+        MENUITEM SEPARATOR
+        POPUP "平台调试", GRAYED
+        BEGIN
+            MENUITEM "X轴前移",                        ID_PINGTAI_XF, GRAYED
+            MENUITEM "X轴后移",                        ID_PINGTAI_XB, GRAYED
+            MENUITEM "Y轴左移",                        ID_PINGTAI_YL, GRAYED
+            MENUITEM "Y轴右移",                        ID_PINGTAI_YR, GRAYED
+            MENUITEM "支腿电机1上移",                     ID_ZHITUIDIANJIFIRST_U, GRAYED
+            MENUITEM "支腿电机1下移",                     ID_ZHITUIDIANJIFIRST_D, GRAYED
+            MENUITEM "支腿电机2上移",                     ID_ZHITUIDIANJISECOND_U, GRAYED
+            MENUITEM "支腿电机2下移",                     ID_ZHITUIDIANJISECOND_D, GRAYED
+        END
+        POPUP "调平调心", GRAYED
+        BEGIN
+            MENUITEM "调平",                          IDC_AjustLevel, GRAYED
+            MENUITEM "调平调心",                        IDC_AjustCenterAndLevel, GRAYED
+            MENUITEM "复位",                          IDC_HReset, GRAYED
+        END
+    END
+    POPUP "系统标定与设置(&S)"
+    BEGIN
+        MENUITEM "用户管理",                        ID_USERSETTING
+        MENUITEM SEPARATOR
+        MENUITEM "传感器参数标定",                     ID_CHUGANQI_BIAODING
+        MENUITEM "参数初始化",                       ID_CANSHUCHUSHI
+        MENUITEM "数据存储路径",                      ID_SET_FILE_SAVE_PATH
+        MENUITEM "电机修正系数",                      ID_MotorCorrect
+        MENUITEM "工艺参数设置",                      ID_GONGYI_SETTING
+        MENUITEM "手动调整速度设置",                    ID_HandVelocitySet
+        MENUITEM "坐标设置",                        ID_ZUOBIAO_SET
+        MENUITEM "机床信息设置",                      ID_MACHINE_INF
+        MENUITEM "数据处理参数设置",                    ID_shujucanshu
+        MENUITEM SEPARATOR
+        MENUITEM "外圆",                          ID_OUT, CHECKED
+        MENUITEM "自动剔除缺口",                      ID_AUTODELQK, CHECKED
+        MENUITEM "缺口平滑系数",                      ID_AUTOQKXS
+        MENUITEM "邻片跳动显示",                      ID_MENU_Lpxianshi
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "层叠(&C)",                      ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                      ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Wilson6(&A)...",           ID_APP_ABOUT
+        MENUITEM "用户指南(&H)",                    ID_USER_GUIDE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Wilson6"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,13,13,21,21
+    LTEXT           "Wilson6 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_PWD DIALOG 0, 0, 301, 95
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,64,59,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,192,59,50,14
+    LTEXT           "用户名：",IDC_STATIC,15,37,33,8
+    LTEXT           "密码：",IDC_STATIC,153,36,25,8
+    EDITTEXT        IDC_EDIT1,50,31,82,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,188,31,82,14,ES_AUTOHSCROLL
+END
+
+IDD_PAGEFILTER DIALOG 0, 0, 203, 197
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "无",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,49,59,38,10
+    CONTROL         "一次波",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,48,76,40,10
+    CONTROL         "跳动",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,48,92,38,10
+    CONTROL         "1---500",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,48,109,38,10
+    CONTROL         "1---15",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,49,126,34,10
+    CONTROL         "1---50",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,111,60,38,10
+    CONTROL         "1--150",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,111,76,38,10
+    CONTROL         "15--500",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,110,94,38,10
+    CONTROL         "3--16",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,111,112,38,10
+    GROUPBOX        "扣除偏心",IDC_STATIC,34,30,134,119
+    CONTROL         "17--100",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,110,127,38,10
+END
+
+IDD_PAGEPROALG DIALOGEX 0, 0, 201, 201
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,50,93,101,84,CBS_DROPDOWNLIST | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+END
+
+IDD_PROPERTY_DIALOG DIALOG 0, 0, 163, 182
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据处理参数设置"
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "确定",IDC_OK,19,158,50,14
+    PUSHBUTTON      "取消",IDC_CANCEL,90,159,50,14
+    GROUPBOX        "波段",IDC_STATIC,15,3,133,118
+    CONTROL         "无",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,39,20,43,12
+    CONTROL         "一次波",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,39,40,46,12
+    CONTROL         "跳动",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,39,60,43,12
+    CONTROL         "1--500",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,39,80,43,12
+    CONTROL         "1--15",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,39,100,39,12
+    CONTROL         "1--50",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,92,20,43,12
+    CONTROL         "1--150",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,92,40,43,12
+    CONTROL         "15--500",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,92,60,43,12
+    CONTROL         "3--16",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,92,80,43,12
+    CONTROL         "17--100",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,92,100,43,12
+    LTEXT           "算法选择：",IDC_STATIC,16,133,38,8
+    COMBOBOX        IDC_COMBO1,54,131,84,53,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PAGEINOROUTCIRCLE DIALOG 0, 0, 192, 200
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System"
+BEGIN
+    CONTROL         "外圆",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,80,74,32,10
+    CONTROL         "内圆",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,80,107,32,10
+END
+
+IDD_FORMVIEW_CIRCLE DIALOG 0, 0, 322, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "宋体"
+BEGIN
+    CONTROL         "",IDC_Deal_Circle,"Static",SS_BLACKFRAME | SS_NOTIFY,14,19,290,161
+END
+
+IDD_DLGBAR DIALOGEX 0, 0, 645, 74
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER
+EXSTYLE WS_EX_TRANSPARENT
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CTEXT           "Static",IDC_Chuanganqi,25,58,52,11
+    DEFPUSHBUTTON   "Button1",IDC_STOPALL,481,4,64,65,BS_BITMAP | BS_NOTIFY | NOT WS_TABSTOP
+    CONTROL         339,IDC_STATIC,"Static",SS_BITMAP,24,4,56,49
+    CONTROL         342,IDC_STATIC,"Static",SS_BITMAP,150,9,56,42
+    CONTROL         341,IDC_STATIC,"Static",SS_BITMAP,286,1,21,61
+    CTEXT           "Static",IDC_Daogui,149,58,59,10
+    CTEXT           "Static",IDC_Lizhu,276,61,41,8
+    PUSHBUTTON      "Button3",IDC_AjustCenter,405,2,34,34,BS_BITMAP | NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_AjustLevel,406,40,33,34,BS_BITMAP | NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_HReset,441,40,34,34,BS_BITMAP | NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Button3",IDC_AjustCenterAndLevel,441,2,34,34,BS_BITMAP | NOT WS_VISIBLE | NOT WS_TABSTOP
+END
+
+IDD_FORMVIEW_CYLINDER DIALOGEX 0, 0, 528, 305
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_Cylinder,"Static",SS_BLACKFRAME,30,7,490,293
+END
+
+IDD_DIALOG_AdjustCenter DIALOG 0, 0, 169, 142
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自动调心"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,20,115,50,14
+    PUSHBUTTON      "取消",IDCANCEL,85,115,50,14
+    LTEXT           "目标偏心：",IDC_STATIC,30,25,40,8
+    EDITTEXT        IDC_EDIT_TARGETECCENTRICITY,75,22,60,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "um",IDC_STATIC,145,24,9,8
+    LTEXT           "快速距离：",IDC_STATIC,30,55,38,8
+    EDITTEXT        IDC_EDIT_FASTMOVEDISTANCE,75,50,60,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,145,55,9,8
+    LTEXT           "最大调整次数：",IDC_STATIC,15,85,53,8
+    EDITTEXT        IDC_EDIT_TIMES,75,80,60,14,ES_CENTER | ES_AUTOHSCROLL
+END
+
+IDD_PAGETARGETECCENTRICITY DIALOG 0, 0, 168, 158
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,40,72,61,14,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_UNITTEXT,108,75,19,8
+END
+
+IDD_PAGETIMES DIALOG 0, 0, 171, 159
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,40,73,91,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_AdjustCenterAndPose DIALOG 0, 0, 171, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自动调心调姿"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,23,157,50,14
+    PUSHBUTTON      "取消",IDCANCEL,91,156,50,14
+    LTEXT           "目标偏心（下）：",IDC_STATIC,15,18,60,8
+    LTEXT           "目标偏心（上）：",IDC_STATIC,15,39,60,8
+    LTEXT           "调整高度：",IDC_STATIC,37,60,38,8
+    LTEXT           "快速距离：",IDC_STATIC,37,81,38,8
+    LTEXT           "最大调整次数：",IDC_STATIC,22,123,53,8
+    LTEXT           "测量后离开距离：",IDC_STATIC,15,102,60,8
+    EDITTEXT        IDC_EDIT_LTARGETECCENTRICITY,77,17,60,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HTARGETECCENTRICITY,77,38,60,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FASTMOVEDISTANCE,77,80,60,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HEIGHT,77,59,60,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DISTANCE,77,101,60,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIMES,77,122,60,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "um",IDC_STATIC,146,20,9,8
+    LTEXT           "um",IDC_STATIC,146,42,9,8
+    LTEXT           "mm",IDC_STATIC,146,63,9,8
+    LTEXT           "mm",IDC_STATIC,146,84,9,8
+    LTEXT           "mm",IDC_STATIC,146,104,9,8
+END
+
+IDD_PAGEEDIT DIALOG 0, 0, 187, 102
+STYLE DS_SETFONT | WS_CHILD
+FONT 12, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,54,44,77,14,ES_AUTOHSCROLL
+    LTEXT           "Static",IDC_UNITTEXT,140,47,19,8
+    LTEXT           "Static",IDC_NAMETEXT,27,47,19,8
+END
+
+IDD_FORMVIEW_STRAIGHTNESS DIALOG 0, 0, 459, 238
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_LINE_STATIC,"Static",SS_BLACKFRAME | SS_NOTIFY,16,7,410,216
+END
+
+IDD_FORMVIEW_PARALLELISM DIALOG 0, 0, 265, 156
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_PARALLEL_STATIC,"Static",SS_BLACKFRAME | SS_NOTIFY,7,7,243,135
+END
+
+IDD_FORMVIEW_PLANENESS DIALOG 0, 0, 512, 398
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_Planeness,"Static",SS_BLACKFRAME,17,21,461,363
+END
+
+IDD_DlAlogCYAnalysis DIALOGEX 0, 0, 531, 263
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_STATICEDGE
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,148,26,12
+    PUSHBUTTON      "取消",IDCANCEL,7,169,26,11
+    CONTROL         "",IDC_YZDJM,"Static",SS_BLACKFRAME | SS_NOTIFY,39,7,485,249
+    PUSHBUTTON      "使能",IDC_EnAbleSelect,7,16,17,16,BS_ICON
+    PUSHBUTTON      "属性表",IDC_PROPERTY,7,41,17,16,BS_ICON
+    PUSHBUTTON      "撤销",IDC_Reset,7,66,17,16,BS_ICON
+    PUSHBUTTON      "删除",IDC_DeletJM,7,87,17,16,BS_ICON
+END
+
+IDD_DIALOG_EXTEND DIALOGEX 0, 0, 177, 129
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "分段处理设置"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "起始角度：",IDC_STATIC,29,20,38,8
+    LTEXT           "终止角度：",IDC_STATIC,29,45,38,8
+    EDITTEXT        IDC_STARTPOSITION,78,16,70,18,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_ENDPOSITION,78,42,70,18,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "确定保存",IDC_OK_SAVE,27,100,57,14
+    CTEXT           "分段个数：",IDC_STATIC,29,73,38,8
+    EDITTEXT        IDC_SPLITNUMBER,78,68,70,18,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "取消退出",IDC_QUIT,95,100,57,14
+END
+
+IDD_FORMVIEW_COAXIALITY DIALOG 0, 0, 541, 318
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC_Coaxiality,"Static",SS_BLACKFRAME,7,7,518,291
+END
+
+IDD_FORMVIEW_VERTICALITY DIALOG 0, 0, 463, 314
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_Verticality,"Static",SS_BLACKFRAME,51,7,392,284
+END
+
+IDD_FORMVIEW_JMANALYSE DIALOG 0, 0, 583, 363
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_JManalyse,"Static",SS_BLACKFRAME | SS_NOTIFY,26,20,518,308
+END
+
+IDD_DIALOG_CanShuChuLi DIALOGEX 0, 0, 400, 197
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "参数初始化"
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,80,167,50,14
+    PUSHBUTTON      "取消",IDCANCEL,239,167,50,14
+    GROUPBOX        "结构参数",IDC_STATIC,16,7,366,89
+    GROUPBOX        "传感器修正系数和零位角度",IDC_STATIC,16,115,366,42
+    EDITTEXT        IDC_EDIT1,41,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "B1x",IDC_STATIC,22,24,14,8
+    EDITTEXT        IDC_EDIT2,41,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "B1y",IDC_STATIC,22,41,14,8
+    EDITTEXT        IDC_EDIT3,41,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "B1z",IDC_STATIC,22,59,14,8
+    EDITTEXT        IDC_EDIT4,109,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "B2x",IDC_STATIC,90,24,14,8
+    EDITTEXT        IDC_EDIT5,109,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "B2y",IDC_STATIC,90,41,14,8
+    EDITTEXT        IDC_EDIT6,109,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "B2z",IDC_STATIC,90,59,14,8
+    EDITTEXT        IDC_EDIT7,180,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "B3x",IDC_STATIC,161,24,14,8
+    EDITTEXT        IDC_EDIT8,180,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "B3y",IDC_STATIC,161,41,14,8
+    EDITTEXT        IDC_EDIT9,180,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "B3z",IDC_STATIC,161,59,14,8
+    EDITTEXT        IDC_EDIT10,250,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "P1x",IDC_STATIC,231,24,14,8
+    EDITTEXT        IDC_EDIT11,250,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "P1y",IDC_STATIC,231,41,14,8
+    EDITTEXT        IDC_EDIT12,250,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "P1z",IDC_STATIC,231,59,14,8
+    EDITTEXT        IDC_EDIT13,326,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "x0",IDC_STATIC,307,24,9,8
+    EDITTEXT        IDC_EDIT14,326,41,40,14,ES_AUTOHSCROLL
+    LTEXT           "y0",IDC_STATIC,307,41,9,8
+    EDITTEXT        IDC_EDIT15,326,59,40,14,ES_AUTOHSCROLL
+    LTEXT           "H0",IDC_STATIC,307,59,10,8
+    EDITTEXT        IDC_EDIT18,90,130,40,14,ES_AUTOHSCROLL
+    LTEXT           "Angle",IDC_STATIC,61,134,21,8
+    EDITTEXT        IDC_EDIT19,259,130,40,14,ES_AUTOHSCROLL
+    LTEXT           "LIMIT",IDC_STATIC,232,133,21,8
+END
+
+IDD_FORMVIEW_AdjustPosition DIALOG 0, 0, 444, 267
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_AdjustPosition,"Static",SS_BLACKFRAME | SS_NOTIFY,19,15,400,230
+END
+
+IDD_FORMVIEW_AdjustOritation DIALOG 0, 0, 529, 322
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC_AdjustOritation,"Static",SS_BLACKFRAME,20,20,500,292
+END
+
+IDD_DIALOG_Frequency DIALOGEX 0, 0, 164, 105
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "谱分析"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "确定保存",IDC_OK_SAVE,23,75,48,15
+    PUSHBUTTON      "取消退出",IDC_QUIT,83,75,47,15
+    LTEXT           "起始谱：",IDC_STATIC,25,19,41,12
+    LTEXT           "终止谱：",IDC_STATIC,25,45,34,16
+    COMBOBOX        IDC_COMBO1,69,18,65,61,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+    COMBOBOX        IDC_COMBO2,69,44,64,51,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_ACCEPTFILES
+END
+
+IDD_DIALOG_AdjustPingjing DIALOG 0, 0, 163, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自动调平"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,23,111,50,14
+    PUSHBUTTON      "取消",IDCANCEL,87,111,50,14
+    LTEXT           "目标偏心：",IDC_STATIC,33,16,38,8
+    LTEXT           "离心距离：",IDC_STATIC,33,38,38,8
+    LTEXT           "快速距离：",IDC_STATIC,33,60,38,8
+    LTEXT           "最大调整次数：",IDC_STATIC,18,82,53,8
+    EDITTEXT        IDC_EDIT_TARGETECCENTRICITY,73,14,55,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DISTANCE,73,36,55,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FASTMOVEDISTANCE,73,58,55,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TIMES,73,79,55,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "um",IDC_STATIC,133,17,9,8
+    LTEXT           "mm",IDC_STATIC,133,40,9,8
+    LTEXT           "mm",IDC_STATIC,133,62,9,8
+END
+
+IDD_MOTORSTATE DIALOG 0, 0, 351, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "检测电机状态"
+FONT 10, "宋体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,194,179,50,14
+    LTEXT           "正向限位",IDC_STATIC,157,14,33,8
+    LTEXT           "负向限位",IDC_STATIC,254,14,33,8
+    CONTROL         365,IDC_STATIC7,"Static",SS_BITMAP,165,28,10,10
+    LTEXT           "导轨电机",IDC_STATIC1,33,32,33,8
+    LTEXT           "立柱电机",IDC_STATIC2,33,55,33,8
+    LTEXT           "平台X电机",IDC_STATIC3,33,78,38,8
+    LTEXT           "平台Y电机",IDC_STATIC4,33,101,38,8
+    LTEXT           "直腿电机1",IDC_STATIC5,33,124,37,8
+    LTEXT           "直腿点击2",IDC_STATIC6,33,147,37,8
+    CONTROL         365,IDC_STATIC9,"Static",SS_BITMAP,165,74,10,10
+    CONTROL         365,IDC_STATIC8,"Static",SS_BITMAP,165,51,10,10
+    CONTROL         365,IDC_STATIC11,"Static",SS_BITMAP,165,120,10,10
+    CONTROL         365,IDC_STATIC10,"Static",SS_BITMAP,165,97,10,10
+    CONTROL         365,IDC_STATIC18,"Static",SS_BITMAP,264,143,10,10
+    CONTROL         365,IDC_STATIC12,"Static",SS_BITMAP,165,143,10,10
+    CONTROL         365,IDC_STATIC16,"Static",SS_BITMAP,264,97,10,10
+    CONTROL         365,IDC_STATIC17,"Static",SS_BITMAP,264,120,10,10
+    CONTROL         365,IDC_STATIC14,"Static",SS_BITMAP,264,51,10,10
+    CONTROL         365,IDC_STATIC15,"Static",SS_BITMAP,264,74,10,10
+    CONTROL         365,IDC_STATIC13,"Static",SS_BITMAP,264,28,10,10
+    PUSHBUTTON      "检测电机状态",IDCHECK,74,179,50,14
+END
+
+IDD_MOTORCORRECTION DIALOG 0, 0, 397, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "电机修正系数"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,212,104,50,14
+    PUSHBUTTON      "取消",IDCANCEL,269,104,50,14
+    COMBOBOX        IDC_COMBO1,75,27,76,91,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,60,57,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,130,57,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,60,94,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,130,93,40,14,ES_AUTOHSCROLL
+    LTEXT           "偏心范围",IDC_STATIC,35,28,33,8
+    GROUPBOX        "调心调资修正系数",IDC_STATIC,17,14,175,109
+    GROUPBOX        "调平修正系数",IDC_STATIC,208,14,168,78
+    EDITTEXT        IDC_EDIT5,245,32,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,320,32,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,245,61,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,320,61,40,14,ES_AUTOHSCROLL
+    LTEXT           "电机1",IDC_STATIC,34,58,22,10
+    LTEXT           "电机2",IDC_STATIC,104,58,22,10
+    LTEXT           "电机3",IDC_STATIC,34,95,22,10
+    LTEXT           "电机4",IDC_STATIC,104,94,22,10
+    LTEXT           "电机1",IDC_STATIC,221,34,22,10
+    LTEXT           "电机2",IDC_STATIC,295,34,22,10
+    LTEXT           "电机3",IDC_STATIC,221,63,22,10
+    LTEXT           "电机4",IDC_STATIC,295,63,22,10
+    PUSHBUTTON      "应用",IDC_apply,328,103,50,14
+END
+
+IDD_DIALOG_YD DIALOGEX 0, 0, 181, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "圆度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,20,108,50,14
+    PUSHBUTTON      "取消",IDCANCEL,105,108,50,14
+    LTEXT           "文件名:",IDC_STATIC,57,14,27,8
+    EDITTEXT        IDC_EDIT1,89,10,64,14,ES_AUTOHSCROLL
+    LTEXT           ".rds",IDC_STATIC,155,15,17,8
+    LTEXT           "传感器档位:",IDC_STATIC,41,40,43,8
+    COMBOBOX        IDC_COMBO1,89,40,64,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,7,66,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,23,87,73,8
+    EDITTEXT        IDC_EDIT2,89,63,64,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,153,66,13,8
+END
+
+IDD_DIALOG_YZD DIALOGEX 0, 0, 238, 313
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "圆柱度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,21,288,50,14
+    PUSHBUTTON      "取消",IDCANCEL,157,288,50,14
+    LTEXT           "文件名:",IDC_STATIC,70,18,27,8
+    EDITTEXT        IDC_EDIT_YZD_Name,101,14,69,14,ES_AUTOHSCROLL
+    LTEXT           ".cyd",IDC_STATIC,170,17,17,8
+    LTEXT           "测量高度:",IDC_STATIC,19,160,35,8
+    EDITTEXT        IDC_EDIT_YZD_H,55,156,37,14,ES_AUTOHSCROLL
+    LTEXT           "测量层数:",IDC_STATIC,19,183,35,8
+    EDITTEXT        IDC_EDIT_YZD_Num,56,181,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,97,158,13,8
+    LTEXT           "传感器档位:",IDC_STATIC,55,36,43,8
+    COMBOBOX        IDC_COMBO1,101,35,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,23,96,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,44,57,64,8
+    EDITTEXT        IDC_EDIT2,101,93,69,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,175,97,13,8
+    GROUPBOX        "测量高度设定",IDC_STATIC,13,114,207,170
+    CONTROL         "等间隔",IDC_RADIO_SELECT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,138,38,10
+    CONTROL         "非等间隔",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,21,208,46,10
+    LTEXT           "高度：",IDC_STATIC,31,235,23,8
+    EDITTEXT        IDC_EDIT_HEIGHT,56,232,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,97,235,13,8
+    CONTROL         "List1",IDC_LIST_HEIGHT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,123,124,90,151
+    PUSHBUTTON      "添加",IDC_BTN_ADD,35,258,20,14
+    PUSHBUTTON      "删除",IDC_BTN_DELETE,72,257,20,14
+    CONTROL         "测量后回原位",IDC_CHECKBACK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,44,75,64,8
+END
+
+IDD_DIALOG_ZXD DIALOGEX 0, 0, 181, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "直线度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,21,160,50,14
+    PUSHBUTTON      "取消",IDCANCEL,102,160,50,14
+    LTEXT           "测量长度:",IDC_STATIC,46,37,37,8
+    EDITTEXT        IDC_EDIT_ZXD_H,86,35,69,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,161,38,13,8
+    LTEXT           "文件名:",IDC_STATIC,56,17,27,8
+    EDITTEXT        IDC_EDIT_ZXD_Name2,86,15,69,14,ES_AUTOHSCROLL
+    LTEXT           ".zxd",IDC_STATIC,157,18,17,8
+    LTEXT           "传感器档位:",IDC_STATIC,40,57,43,8
+    COMBOBOX        IDC_COMBO1,86,55,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,7,121,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,29,100,64,8
+    EDITTEXT        IDC_EDIT2,85,119,69,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,160,122,13,8
+    RTEXT           "测量速度：",IDC_STATIC,45,80,38,8
+    COMBOBOX        IDC_COMBO2,86,78,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "测量后回原位",IDC_CHECKBACK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,28,101,64,8
+END
+
+IDD_DIALOG_PMD DIALOGEX 0, 0, 181, 136
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "平面度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,22,111,50,14
+    PUSHBUTTON      "取消",IDCANCEL,99,111,50,14
+    LTEXT           "文件名:",IDC_STATIC,58,14,27,8
+    EDITTEXT        IDC_EDIT_PMD_Name,88,12,63,14,ES_AUTOHSCROLL
+    LTEXT           ".pmd",IDC_STATIC,157,14,17,8
+    LTEXT           "传感器档位:",IDC_STATIC,42,40,43,8
+    COMBOBOX        IDC_COMBO1,88,38,63,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,15,80,75,8,NOT WS_VISIBLE
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,34,59,64,8
+    EDITTEXT        IDC_EDIT2,91,76,63,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "mm",IDC_STATIC,161,80,13,8,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_PXD DIALOGEX 0, 0, 181, 177
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "平行度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,26,156,50,14
+    PUSHBUTTON      "取消",IDCANCEL,95,156,50,14
+    LTEXT           "文件名:",IDC_STATIC,57,17,27,8
+    EDITTEXT        IDC_EDIT_PXD_Name,87,14,66,14,ES_AUTOHSCROLL
+    LTEXT           ".pxd",IDC_STATIC,155,18,17,8
+    LTEXT           "测量长度:",IDC_STATIC,49,36,35,8
+    EDITTEXT        IDC_EDIT_PXD_H,87,34,66,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,159,37,13,8
+    LTEXT           "传感器档位:",IDC_STATIC,41,56,43,8
+    COMBOBOX        IDC_COMBO1,87,55,66,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,7,117,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,99,98,67,8
+    EDITTEXT        IDC_EDIT2,85,114,66,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,157,117,13,8
+    RTEXT           "测量速度：",IDC_STATIC,45,80,38,8
+    COMBOBOX        IDC_COMBO2,86,78,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "测量后回原位",IDC_CHECKBACK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,28,98,64,8
+END
+
+IDD_DIALOG_TZD DIALOGEX 0, 0, 233, 315
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "同轴度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,21,288,50,14
+    PUSHBUTTON      "取消",IDCANCEL,157,288,50,14
+    LTEXT           "文件名:",IDC_STATIC,70,18,27,8
+    EDITTEXT        IDC_EDIT_TZD_Name,101,14,69,14,ES_AUTOHSCROLL
+    LTEXT           ".tzd",IDC_STATIC,170,17,17,8
+    LTEXT           "测量高度:",IDC_STATIC,19,160,35,8
+    EDITTEXT        IDC_EDIT_TZD_H,55,156,37,14,ES_AUTOHSCROLL
+    LTEXT           "测量层数:",IDC_STATIC,19,183,35,8
+    EDITTEXT        IDC_EDIT_TZD_Num,56,181,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,97,158,13,8
+    LTEXT           "传感器档位:",IDC_STATIC,55,36,43,8
+    COMBOBOX        IDC_COMBO1,101,35,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,23,96,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,44,57,64,8
+    EDITTEXT        IDC_EDIT2,101,93,69,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,175,97,13,8
+    GROUPBOX        "测量高度设定",IDC_STATIC,13,114,207,170
+    CONTROL         "等间隔",IDC_RADIO_SELECT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,138,38,10
+    CONTROL         "非等间隔",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,21,208,46,10
+    LTEXT           "高度：",IDC_STATIC,31,235,23,8
+    EDITTEXT        IDC_EDIT_HEIGHT,56,232,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,97,235,13,8
+    CONTROL         "List1",IDC_LIST_HEIGHT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,123,124,90,151
+    PUSHBUTTON      "添加",IDC_BTN_ADD,35,258,20,14
+    PUSHBUTTON      "删除",IDC_BTN_DELETE,72,257,20,14
+    CONTROL         "测量后回原位",IDC_CHECKBACK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,44,75,64,8
+END
+
+IDD_DIALOG_CZD DIALOGEX 0, 0, 233, 308
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "垂直度测量"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,16,282,50,14
+    PUSHBUTTON      "取消",IDCANCEL,152,282,50,14
+    LTEXT           "文件名:",IDC_STATIC,65,12,27,8
+    EDITTEXT        IDC_EDIT_CZD_Name,96,9,69,14,ES_AUTOHSCROLL
+    LTEXT           ".czd",IDC_STATIC,165,12,17,8
+    LTEXT           "测量高度:",IDC_STATIC,14,154,35,8
+    EDITTEXT        IDC_EDIT_CZD_H,50,151,37,14,ES_AUTOHSCROLL
+    LTEXT           "测量层数:",IDC_STATIC,14,177,35,8
+    EDITTEXT        IDC_EDIT_CZD_Num,51,175,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,92,153,13,8
+    LTEXT           "传感器档位:",IDC_STATIC,50,31,43,8
+    COMBOBOX        IDC_COMBO1,96,30,69,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,18,90,75,8
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,39,52,64,8
+    EDITTEXT        IDC_EDIT2,96,87,69,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,170,92,13,8
+    GROUPBOX        "测量高度设定",IDC_STATIC,8,108,207,170
+    CONTROL         "等间隔",IDC_RADIO_SELECT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,132,38,10
+    CONTROL         "非等间隔",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,16,202,46,10
+    LTEXT           "高度：",IDC_STATIC,26,230,23,8
+    EDITTEXT        IDC_EDIT_HEIGHT,51,226,36,14,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,92,230,13,8
+    CONTROL         "List1",IDC_LIST_HEIGHT,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,118,119,90,151
+    PUSHBUTTON      "添加",IDC_BTN_ADD,30,252,20,14
+    PUSHBUTTON      "删除",IDC_BTN_DELETE,67,252,20,14
+    CONTROL         "测量后回原位",IDC_CHECKBACK,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,39,70,64,8
+END
+
+IDD_DIALOG_BiaoDing DIALOGEX 0, 0, 180, 94
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "传感器参数标定"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,23,67,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,108,67,50,14
+    LTEXT           "标准值:",IDC_STATIC,31,22,29,8
+    EDITTEXT        IDC_EDIT_STDVALUE,66,19,71,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "测量值:",IDC_STATIC,33,45,27,8
+    EDITTEXT        IDC_EDIT_MEAVALUE,66,44,71,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_USERMANAGEMENT DIALOG 0, 0, 157, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户管理设置"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,17,114,50,14
+    PUSHBUTTON      "取消",IDCANCEL,83,114,50,14
+    LTEXT           "原用户名:",IDC_STATIC,21,14,35,8
+    RTEXT           "原密码:",IDC_STATIC,21,38,35,8
+    LTEXT           "新用户名:",IDC_STATIC,21,63,35,8
+    RTEXT           "新密码:",IDC_STATIC,21,90,35,8
+    EDITTEXT        IDC_EDITOLDUSENAME,71,14,63,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITOLDPWD,71,38,63,14,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITNEWNAME,71,63,63,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITNEWPWD,71,90,63,14,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_GONGYISETTING DIALOG 0, 0, 174, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "工艺参数设置"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,169,50,14
+    PUSHBUTTON      "取消",IDCANCEL,93,169,50,14
+    CTEXT           "um",IDC_STATIC,140,12,25,8
+    EDITTEXT        IDC_EDIT_YD,55,8,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YZD,55,30,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PMD,55,52,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ZXD,55,74,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PXD,55,96,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TZD,55,118,79,14,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CZD,55,140,79,14,ES_CENTER | ES_AUTOHSCROLL
+    RTEXT           "圆度：",IDC_STATIC,15,10,35,8
+    RTEXT           "圆柱度：",IDC_STATIC,15,32,35,8
+    RTEXT           "平行度：",IDC_STATIC,15,98,35,8
+    RTEXT           "垂直度：",IDC_STATIC,15,142,35,8
+    RTEXT           "平面度：",IDC_STATIC,15,54,35,8
+    RTEXT           "直线度：",IDC_STATIC,15,76,35,8
+    RTEXT           "同轴度：",IDC_STATIC,15,120,35,8
+    CTEXT           "um",IDC_STATIC,140,35,25,8
+    CTEXT           "um",IDC_STATIC,140,57,25,8
+    CTEXT           "um",IDC_STATIC,140,81,25,8
+    CTEXT           "um",IDC_STATIC,140,99,25,8
+    CTEXT           "um",IDC_STATIC,140,122,25,8
+    CTEXT           "um",IDC_STATIC,140,143,25,8
+END
+
+IDD_PAGESELECT DIALOGEX 0, 0, 187, 98
+STYLE DS_SETFONT | WS_CHILD
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,51,44,73,47,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    CTEXT           "Static",IDC_UNITTEXT,130,45,25,8
+END
+
+IDD_DIALOG_ONEAXISPARA1 DIALOG 0, 0, 131, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单轴运动参数"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,6,91,50,14
+    PUSHBUTTON      "取消",IDCANCEL,72,91,50,14
+    EDITTEXT        IDC_EDITPOSITION,56,26,36,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,96,28,13,8
+    LTEXT           "运动距离:",IDC_STATIC,13,27,35,8
+    COMBOBOX        IDC_COMBO1,56,60,44,59,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "运动速度:",IDC_STATIC,13,63,35,8
+END
+
+IDD_DIALOG_HANDS DIALOG 0, 0, 131, 93
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "手动挡速度设置"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,71,50,14
+    PUSHBUTTON      "取消",IDCANCEL,77,71,50,14
+    COMBOBOX        IDC_COMBO1,59,20,60,54,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "速度选择:",IDC_STATIC,15,23,35,8
+END
+
+IDD_DIALOGONEAXISPARA DIALOG 0, 0, 187, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单轴运动参数"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,15,139,50,14
+    PUSHBUTTON      "取消",IDCANCEL,114,139,50,14
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,7,5,173,118
+END
+
+IDD_DIALOG_MACHINEINF DIALOG 0, 0, 187, 273
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "机床信息设置"
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "设置",IDOK,25,245,50,14
+    PUSHBUTTON      "取消",IDCANCEL,100,244,50,14
+    LTEXT           "操作员：",IDC_STATIC,27,39,33,8
+    EDITTEXT        IDC_EDIT_OPERATORNAME,67,37,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "机床型号：",IDC_STATIC,19,64,41,8
+    EDITTEXT        DC_EDIT_MACHINEMODEL,67,62,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "机床：",IDC_STATIC,35,89,25,8
+    EDITTEXT        IDC_EDIT_MACHINENAME,67,87,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "工序：",IDC_STATIC,35,114,25,8
+    EDITTEXT        IDC_EDIT_PROCESS,67,112,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "工件型号：",IDC_STATIC,19,139,41,8
+    EDITTEXT        IDC_EDIT_WORKPIECEMODEL,67,137,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "工件编号：",IDC_STATIC,19,164,41,8
+    EDITTEXT        IDC_EDIT_WORKPIECENUM,67,162,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "订单：",IDC_STATIC,35,189,25,8
+    EDITTEXT        IDC_EDIT_INDENT,67,187,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "检测员：",IDC_STATIC,27,214,33,8
+    EDITTEXT        IDC_EDIT_INSPECTOR,67,212,97,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "生产厂商：",IDC_STATIC,19,14,41,8
+    EDITTEXT        IDC_EDIT_COMPANYNAME,67,12,97,14,ES_CENTER | ES_AUTOHSCROLL
+END
+
+IDD_FORMVIEW_DYNAMICDISPLAY DIALOG 0, 0, 462, 299
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "",IDC_editDynamicDisplay,"Static",SS_BLACKFRAME,61,37,267,153
+    PUSHBUTTON      "开启(K)",IDC_BUTTONOPENDYN,9,219,33,19
+    PUSHBUTTON      "停止(T)",IDC_BUTTONSTOPDYN,9,260,33,19
+    CONTROL         "档位1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,12,37,35,10
+    CONTROL         "档位2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,12,60,35,10
+    CONTROL         "档位3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,12,83,35,10
+    CONTROL         "档位4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,12,106,35,10
+    CONTROL         "档位5",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,12,129,35,10
+    CONTROL         "档位6",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,12,152,35,10
+    CONTROL         "档位7",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,12,175,35,10
+    CONTROL         "档位8",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,12,195,35,10
+END
+
+IDD_FORMVIEW_CircleRunOut DIALOG 0, 0, 642, 370
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC_CircleRunOut,"Static",SS_BLACKFRAME,21,25,594,328
+END
+
+IDD_DIALOG_pmPXD DIALOG 0, 0, 183, 137
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "平面平行度测量"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,25,108,50,14
+    PUSHBUTTON      "取消",IDCANCEL,101,107,50,14
+    LTEXT           "文件名:",IDC_STATIC,56,18,27,8
+    EDITTEXT        IDC_EDIT_pmPXD_Name,86,15,66,14,ES_AUTOHSCROLL
+    LTEXT           ".pxd",IDC_STATIC,154,18,17,8
+    LTEXT           "传感器档位:",IDC_STATIC,40,42,43,8
+    COMBOBOX        IDC_COMBO1,86,40,66,55,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "测量后离开表面距离:",IDC_STATIC,7,66,75,8,NOT WS_VISIBLE
+    CONTROL         "测量前先接触",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | NOT WS_VISIBLE | WS_TABSTOP,22,85,67,8
+    EDITTEXT        IDC_EDIT2,87,66,66,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "mm",IDC_STATIC,157,89,13,8
+END
+
+IDD_DIALOG_AmpScale DIALOGEX 0, 0, 179, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "放大倍数"
+FONT 10, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,22,81,50,14
+    PUSHBUTTON      "取消",IDCANCEL,110,81,50,14
+    CONTROL         "自动放大倍数",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,17,17,64,10
+    CONTROL         "手动放大倍数",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,17,50,64,10
+    LTEXT           "(倍)",IDC_STATIC,129,52,41,8
+    EDITTEXT        IDC_EDIT1,86,49,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,86,16,40,14,ES_AUTOHSCROLL
+    LTEXT           "(倍)",IDC_STATIC,129,21,41,8
+END
+
+IDD_DIALOG_zuobiao DIALOG 0, 0, 161, 141
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "坐标设置"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,120,50,14
+    PUSHBUTTON      "取消",IDCANCEL,79,120,50,14
+    LTEXT           "导轨",IDC_STATIC,14,18,17,8
+    LTEXT           "立柱",IDC_STATIC,14,45,17,8
+    EDITTEXT        IDC_EDIT_Daogui,57,16,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Lizhu,57,42,37,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,115,18,13,8
+    LTEXT           "mm",IDC_STATIC,117,44,13,8
+    LTEXT           "导轨系数",IDC_STATIC,14,64,36,11
+    LTEXT           "立柱系数",IDC_STATIC,15,80,36,11
+    EDITTEXT        IDC_DGXISHU,57,61,62,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LZXISHU,57,81,63,12,ES_AUTOHSCROLL
+END
+
+IDD_FORMVIEW_DESKTOP DIALOG 0, 0, 534, 277
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG_QKxs DIALOG 0, 0, 168, 66
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "缺口平滑系数"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,17,38,14
+    PUSHBUTTON      "Cancel",IDCANCEL,114,41,38,14
+    LTEXT           "缺口平滑宽度比例（<=1）",IDC_STATIC,11,15,93,8
+    EDITTEXT        IDC_EDIT1,20,37,48,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SavePath DIALOG 0, 0, 187, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "存储路径"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "应用",IDOK,73,56,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,56,50,14
+    LTEXT           "当前路径：",IDC_STATIC,11,11,41,8
+    PUSHBUTTON      "浏览",IDC_BUTTON_CHANGE,15,56,50,14
+    COMBOBOX        IDC_COMBO1,30,25,135,51,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "Wilson6 Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Wilson6"
+            VALUE "LegalCopyright", "版权所有 (C) 2011"
+            VALUE "OriginalFilename", "Wilson6.EXE"
+            VALUE "ProductName", "Wilson6 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_PWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PAGEFILTER, DIALOG
+    BEGIN
+    END
+
+    IDD_PAGEPROALG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        VERTGUIDE, 50
+        VERTGUIDE, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+        HORZGUIDE, 93
+        HORZGUIDE, 107
+    END
+
+    IDD_PROPERTY_DIALOG, DIALOG
+    BEGIN
+    END
+
+    IDD_PAGEINOROUTCIRCLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        VERTGUIDE, 96
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+        HORZGUIDE, 96
+        HORZGUIDE, 101
+        HORZGUIDE, 117
+    END
+
+    IDD_FORMVIEW_CIRCLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 313
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 183
+    END
+
+    IDD_DLGBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 643
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_FORMVIEW_CYLINDER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 520
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 300
+    END
+
+    IDD_DIALOG_AdjustCenter, DIALOG
+    BEGIN
+    END
+
+    IDD_PAGETARGETECCENTRICITY, DIALOG
+    BEGIN
+        VERTGUIDE, 40
+        VERTGUIDE, 128
+        HORZGUIDE, 72
+        HORZGUIDE, 86
+    END
+
+    IDD_PAGETIMES, DIALOG
+    BEGIN
+        VERTGUIDE, 40
+        VERTGUIDE, 131
+        HORZGUIDE, 73
+        HORZGUIDE, 87
+    END
+
+    IDD_PAGEEDIT, DIALOG
+    BEGIN
+    END
+
+    IDD_FORMVIEW_STRAIGHTNESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 452
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_FORMVIEW_PARALLELISM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_FORMVIEW_PLANENESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 505
+        TOPMARGIN, 7
+    END
+
+    IDD_DlAlogCYAnalysis, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 524
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+
+    IDD_DIALOG_EXTEND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_FORMVIEW_COAXIALITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 534
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 311
+    END
+
+    IDD_FORMVIEW_VERTICALITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_FORMVIEW_JMANALYSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 576
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+
+    IDD_DIALOG_CanShuChuLi, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 393
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_FORMVIEW_AdjustPosition, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 437
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_FORMVIEW_AdjustOritation, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 522
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 315
+    END
+
+    IDD_DIALOG_Frequency, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_DIALOG_AdjustPingjing, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_MOTORSTATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_MOTORCORRECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 390
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_DIALOG_YD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_DIALOG_YZD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 306
+    END
+
+    IDD_DIALOG_ZXD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DIALOG_PMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_DIALOG_PXD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_DIALOG_TZD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_DIALOG_CZD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+
+    IDD_DIALOG_BiaoDing, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_USERMANAGEMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_DIALOG_GONGYISETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_PAGESELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DIALOG_ONEAXISPARA1, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 108
+        HORZGUIDE, 1
+    END
+
+    IDD_DIALOG_HANDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        TOPMARGIN, 1
+        HORZGUIDE, 1
+    END
+
+    IDD_DIALOGONEAXISPARA, DIALOG
+    BEGIN
+        HORZGUIDE, 20
+        HORZGUIDE, 123
+    END
+
+    IDD_DIALOG_MACHINEINF, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_FORMVIEW_DYNAMICDISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_FORMVIEW_CircleRunOut, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 635
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 362
+    END
+
+    IDD_DIALOG_pmPXD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_DIALOG_AmpScale, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_DIALOG_zuobiao, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_FORMVIEW_DESKTOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 527
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+
+    IDD_DIALOG_QKxs, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_DIALOG_SavePath, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR 32, 32
+BEGIN
+    BUTTON      ID_UnConnect
+    SEPARATOR
+    BUTTON      ID_Connect
+    SEPARATOR
+    BUTTON      ID_Print
+    SEPARATOR
+    BUTTON      ID_BTNCHULI
+    BUTTON      ID_BTNDISABLE
+    BUTTON      ID_BTNENABLE
+    BUTTON      ID_BTNSETORIGIN
+    BUTTON      ID_BTNSETOTHERS
+    BUTTON      ID_BTNTLEFT
+    SEPARATOR
+    BUTTON      ID_BTNTRIGHT
+    BUTTON      ID_BTNFENDUANCHULI
+    BUTTON      ID_BTNYUANDUCHULI
+    SEPARATOR
+    BUTTON      ID_BTNRESETDEAL
+    SEPARATOR
+    BUTTON      ID_BTNBGFX
+    BUTTON      ID_BTNPPFX
+    BUTTON      ID_BTNDELETE
+    BUTTON      ID_AmplifyScale
+    SEPARATOR
+    BUTTON      ID_BTNTBEGIN
+    BUTTON      ID_BTNTSTOP
+END
+
+IDR_TOOLBAR3 TOOLBAR 49, 47
+BEGIN
+    BUTTON      ID_DAOGUI_LEFT
+    BUTTON      ID_DAOGUI_RIGHT
+    BUTTON      ID_LIZHU_DOWN
+    BUTTON      ID_LIZHU_UP
+    BUTTON      ID_SENSOR_SIDE
+    SEPARATOR
+    BUTTON      ID_SENSOR_DOWN
+    BUTTON      ID_SETTING
+END
+
+IDR_TOOLBAR4 TOOLBAR 32, 32
+BEGIN
+    BUTTON      ID_Combox
+    BUTTON      ID_20
+    BUTTON      ID_21
+    BUTTON      ID_22
+END
+
+IDR_TOOLBAR5 TOOLBAR 32, 32
+BEGIN
+    BUTTON      IDC_D
+    SEPARATOR
+    BUTTON      IDC_GOWORK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR3            BITMAP                  "res\\toolbar3.bmp"
+IDR_TOOLBAR4            BITMAP                  "res\\toolbar4.bmp"
+IDB_STOP                BITMAP                  "res\\stop.bmp"
+IDB_ZhuZHOU             BITMAP                  "res\\bitmap13.bmp"
+IDR_TOOLBAR5            BITMAP                  "res\\toolbar5.bmp"
+IDB_DENGLU1             BITMAP                  "res\\denglutubiao1.bmp"
+IDB_TIAOPING            BITMAP                  "res\\tiaoping.bmp"
+IDB_TIAOXIN             BITMAP                  "res\\tiaoxin.bmp"
+IDB_RESET               BITMAP                  "res\\reset.bmp"
+IDB_TIAOPINGXIN         BITMAP                  "res\\tiaoxinping.bmp"
+IDB_CHUANGANQI          BITMAP                  "res\\chuangan.bmp"
+IDB_R                   BITMAP                  "res\\r.bmp"
+IDB_LIZHU               BITMAP                  "res\\lizhu.bmp"
+IDB_PINGTAI             BITMAP                  "res\\pingtai.bmp"
+IDB_BITMAP18            BITMAP                  "res\\bitmap18.bmp"
+IDB_BITMAP20            BITMAP                  "res\\zhuzhou3.bmp"
+IDB_CHUANGANQI2         BITMAP                  "res\\chuanganqi.bmp"
+IDB_PINGTAI2            BITMAP                  "res\\pingtai2.bmp"
+IDB_LIZHU2              BITMAP                  "res\\lizhu2.bmp"
+IDB_R2                  BITMAP                  "res\\R2.bmp"
+IDB_BITMAP19            BITMAP                  "res\\bitmap19.bmp"
+IDB_BITMAP21            BITMAP                  "res\\bitmap21.bmp"
+IDB_BITMAP22            BITMAP                  "res\\bitmap22.bmp"
+IDB_BITMAP_desktop      BITMAP                  "res\\bitmap_d.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MOTORCORRECTION DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0x2e30, 0x3730, 0x3d35, 0x643c, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3430, 0x3c35, 0x3c64, 0x303d, 0x302e, 0x3537, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3330, 0x3c30, 0x3c64, 0x303d, 0x302e, 0x3534, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3230, 0x3c30, 0x3c64, 0x303d, 0x302e, 0x3033, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3130, 0x3c35, 0x3c64, 0x303d, 0x302e, 0x3032, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3130, 0x3c30, 0x3c64, 0x303d, 0x302e, 0x3531, "\000" 
+    IDC_COMBO1, 0x403, 15, 0
+0x2e30, 0x3030, 0x3c35, 0x3c64, 0x303d, 0x302e, 0x3031, "\000" 
+    IDC_COMBO1, 0x403, 16, 0
+0x2e30, 0x3030, 0x3532, 0x643c, 0x3d3c, 0x2e30, 0x3030, 0x0035, 
+    IDC_COMBO1, 0x403, 10, 0
+0x3c64, 0x303d, 0x302e, 0x3230, 0x0035, 
+    0
+END
+
+IDD_PAGESELECT DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO1, 0x403, 2, 0
+0x0035, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Wilson6"
+    IDR_WILSONTYPE          "\nWilson\nWilson"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Wilson6"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "链接下位机\n链接"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_ARRANGE       "将图标排列在窗口底部\n排列图标"
+    ID_WINDOW_CASCADE       "排列窗口成相互重叠\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    AFX_IDS_MDICHILD        "激活该窗口"
+END
+
+STRINGTABLE
+BEGIN
+    ID_UnConnect            "断开链接\n注销"
+    ID_Connect              "链接下位机\n链接"
+    ID_Print                "打印报表\n打印"
+    ID_DoCircle             "打开待处理的圆度文件"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_MYTREECTRL          "TREECTRL"
+    ID_fSTATE               "状态信息"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SENSOR_DOWN          "传感器向下逼近\n传感器向下逼近"
+    ID_USERSETTING          "设置用户名和密码"
+    ID_RESOURCEMANAGEMENT   "管理测量数据"
+    ID_DoCylinder           "打开待处理的圆柱度文件"
+    ID_DoPosition           "打开待处理的位置度文件"
+    ID_DoStraightness       "打开待处理的直线度文件"
+    ID_MENUITEM32831        "处理平行度数据"
+END
+
+STRINGTABLE
+BEGIN
+    ID_DoParallelism        "打开待处理的平行度文件"
+    ID_MENUITEM32833        "处理平面度文件"
+    ID_DoPlaneness          "打开待处理的平面度文件"
+    ID_DAQ_CIRCLE_FORM      "开始填表式全自动圆度测量"
+    ID_DAQ_CIRCLE_SEMIAU    "开始半自动圆度测量"
+    ID_DAQ_CIRCLE_REM       "开始记忆式全自动圆度测量"
+    ID_DAQ_CYD_SEMIAU       "开始半自动圆柱测量"
+    ID_DAQ_CYD_FORM         "开始填表式全自动圆柱度测量"
+    ID_DAQ_CYD_REM          "开始记忆式全自动圆柱度测量"
+    ID_DAQ_STRAIGHTNESS     "开始直线度测量"
+    ID_DAQ_PARA             "开始平行度测量"
+    ID_DAQ_AXIALITY         "开始同轴(同心)度测量"
+    ID_DAQ_SQUARENESS       "开始垂直度测量"
+    ID_STD_G1G2             "打开标定传感器参数界面"
+    ID_USER_GUIDE           "仪器的软硬件用户指南"
+END
+
+STRINGTABLE
+BEGIN
+    ID_DOCONCENTRICITY      "同心度数据处理"
+    ID_DOCOAXIALITY         "同轴度数据处理"
+    ID_DOVERTICALITY        "垂直度数据处理"
+    ID_BTNCHULI             "数据处理\n数据处理"
+    ID_BTNDISABLE           "剪切\n剪切"
+    ID_BTNENABLE            "剪切\n剪切"
+    ID_BTNTLEFT             "旋转\n向左旋转"
+    ID_BTNTRIGHT            "旋转\n向右旋转"
+    ID_BTNFENDUANCHULI      "分段处理\n分段处理"
+    ID_BTNRESETDEAL         "撤消\n撤消"
+    ID_BTNYUANDUCHULI       "返回\n返回"
+END
+
+STRINGTABLE
+BEGIN
+    ID_LIZHU_SETZERO        "将立柱位置设置为零位"
+    ID_DAOGUI_SETZERO       "将导轨位置设置为零位"
+    ID_DYNAMICDIPLAY        "动态显示测量结果"
+    ID_MACHINE_INF          "设定机床的信息"
+END
+
+STRINGTABLE
+BEGIN
+    ID_AmplifyScale         "放大倍数\n放大倍数"
+    32905                   "开始\n开始"
+    ID_BTNTSTOP             "结束\n结束"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BTNBGFX              "波高分析\n波高分析"
+    ID_BTNPPFX              "频谱分析\n频谱分析"
+    ID_BTNDELETE            "删除\n删除"
+END
+
+STRINGTABLE
+BEGIN
+    IDC_GOWORK              "测量\n测量"
+    ID_LIZHU_UP             "立柱上升\n立柱上升"
+    ID_LIZHU_DOWN           "立柱下降\n立柱下降"
+    ID_DAOGUI_LEFT          "导轨左移\n导轨左移"
+    ID_DAOGUI_RIGHT         "导轨右移\n导轨右移"
+    ID_SENSOR_SIDE          "传感器向左逼近\n传感器向左逼近"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Wilson6.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

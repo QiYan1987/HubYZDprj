@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <IncludePath>$(VCInstallDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Wilson6.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Wilson6.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Wilson6.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Wilson6.exe</OutputFile>
+      <AdditionalDependencies>MPC08.lib;8112PG.lib;IPHLPAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Wilson6.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Wilson6.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Wilson6.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\Wilson6.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3dPoint.cpp" />
+    <ClCompile Include="AmpScale.cpp" />
+    <ClCompile Include="biaoding.cpp" />
+    <ClCompile Include="Body.cpp" />
+    <ClCompile Include="Canshuchushi.cpp" />
+    <ClCompile Include="ColorMap.cpp" />
+    <ClCompile Include="ComboToolBar1.cpp" />
+    <ClCompile Include="DesktopView.cpp" />
+    <ClCompile Include="Dlg_CZD.cpp" />
+    <ClCompile Include="Dlg_PMD.cpp" />
+    <ClCompile Include="Dlg_pmPXD.cpp" />
+    <ClCompile Include="Dlg_PXD.cpp" />
+    <ClCompile Include="Dlg_QKxs.cpp" />
+    <ClCompile Include="Dlg_SavePath.cpp" />
+    <ClCompile Include="Dlg_TZD.cpp" />
+    <ClCompile Include="Dlg_YD.cpp" />
+    <ClCompile Include="Dlg_YZD.cpp" />
+    <ClCompile Include="Dlg_ZXD.cpp" />
+    <ClCompile Include="DlgAjustCenter.cpp" />
+    <ClCompile Include="DlgAjustCenterAndPose.cpp" />
+    <ClCompile Include="DlgAjustPingjing.cpp" />
+    <ClCompile Include="DlgCHGQBiaoDing.cpp" />
+    <ClCompile Include="DlgextendCircle.cpp" />
+    <ClCompile Include="Dlgfrequency1.cpp" />
+    <ClCompile Include="DlgGongYiSetting.cpp" />
+    <ClCompile Include="DlgHands.cpp" />
+    <ClCompile Include="DlgMachineInf.cpp" />
+    <ClCompile Include="DlgOneAxisPara.cpp" />
+    <ClCompile Include="DlgOneAxisPara1.cpp" />
+    <ClCompile Include="DlgUserManagement.cpp" />
+    <ClCompile Include="DlgZuobiao.cpp" />
+    <ClCompile Include="DoAdjustOritation.cpp" />
+    <ClCompile Include="DoAdjustPosition.cpp" />
+    <ClCompile Include="DoCircle.cpp" />
+    <ClCompile Include="DoCircleRunOut.cpp" />
+    <ClCompile Include="DoCoaxiality.cpp" />
+    <ClCompile Include="DoCylinder.cpp" />
+    <ClCompile Include="DoDynamicDisplay.cpp" />
+    <ClCompile Include="DoParallelism.cpp" />
+    <ClCompile Include="DoPlaneness.cpp" />
+    <ClCompile Include="DoStraightness.cpp" />
+    <ClCompile Include="DoVerticality.cpp" />
+    <ClCompile Include="HeaderCtrlCl.cpp" />
+    <ClCompile Include="JMAnalyse.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="ListCtrlCl.cpp" />
+    <ClCompile Include="LOGIN.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MotorCorrection.cpp" />
+    <ClCompile Include="MotorState.cpp" />
+    <ClCompile Include="PageEdit.cpp" />
+    <ClCompile Include="PageFilter.cpp" />
+    <ClCompile Include="PageInorOut.cpp" />
+    <ClCompile Include="PageParaG.cpp" />
+    <ClCompile Include="PageProAlg.cpp" />
+    <ClCompile Include="PageSelect.cpp" />
+    <ClCompile Include="PageTargetEccentricity.cpp" />
+    <ClCompile Include="PageTimes.cpp" />
+    <ClCompile Include="PropertyDlg.cpp" />
+    <ClCompile Include="scbarg.cpp" />
+    <ClCompile Include="sizecbar.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Wilson6.cpp" />
+    <ClCompile Include="WilsonFrame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Wilson6.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3dPoint.h" />
+    <ClInclude Include="AmpScale.h" />
+    <ClInclude Include="..\11\BCMenu.h" />
+    <ClInclude Include="biaoding.h" />
+    <ClInclude Include="Body.h" />
+    <ClInclude Include="Canshuchushi.h" />
+    <ClInclude Include="ColorMap.h" />
+    <ClInclude Include="ComboToolBar1.h" />
+    <ClInclude Include="const.h" />
+    <ClInclude Include="DesktopView.h" />
+    <ClInclude Include="Dlg_CZD.h" />
+    <ClInclude Include="Dlg_PMD.h" />
+    <ClInclude Include="Dlg_pmPXD.h" />
+    <ClInclude Include="Dlg_PXD.h" />
+    <ClInclude Include="Dlg_QKxs.h" />
+    <ClInclude Include="Dlg_SavePath.h" />
+    <ClInclude Include="Dlg_TZD.h" />
+    <ClInclude Include="Dlg_YD.h" />
+    <ClInclude Include="Dlg_YZD.h" />
+    <ClInclude Include="Dlg_ZXD.h" />
+    <ClInclude Include="DlgAjustCenter.h" />
+    <ClInclude Include="DlgAjustCenterAndPose.h" />
+    <ClInclude Include="DlgAjustPingjing.h" />
+    <ClInclude Include="DlgCHGQBiaoDing.h" />
+    <ClInclude Include="DlgextendCircle.h" />
+    <ClInclude Include="Dlgfrequency1.h" />
+    <ClInclude Include="DlgGongYiSetting.h" />
+    <ClInclude Include="DlgHands.h" />
+    <ClInclude Include="DlgMachineInf.h" />
+    <ClInclude Include="DlgOneAxisPara.h" />
+    <ClInclude Include="DlgOneAxisPara1.h" />
+    <ClInclude Include="DlgUserManagement.h" />
+    <ClInclude Include="DlgZuobiao.h" />
+    <ClInclude Include="DLL2.H" />
+    <ClInclude Include="DoAdjustOritation.h" />
+    <ClInclude Include="DoAdjustPosition.h" />
+    <ClInclude Include="DoCircle.h" />
+    <ClInclude Include="DoCircleRunOut.h" />
+    <ClInclude Include="DoCoaxiality.h" />
+    <ClInclude Include="DoCylinder.h" />
+    <ClInclude Include="DoDynamicDisplay.h" />
+    <ClInclude Include="DoParallelism.h" />
+    <ClInclude Include="DoPlaneness.h" />
+    <ClInclude Include="DoStraightness.h" />
+    <ClInclude Include="DoVerticality.h" />
+    <ClInclude Include="FilterSelect.h" />
+    <ClInclude Include="HeaderCtrlCl.h" />
+    <ClInclude Include="JMAnalyse.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="ListCtrlCl.h" />
+    <ClInclude Include="LOGIN.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MotorCorrection.h" />
+    <ClInclude Include="MotorState.h" />
+    <ClInclude Include="Mpc.h" />
+    <ClInclude Include="PageEdit.h" />
+    <ClInclude Include="PageFilter.h" />
+    <ClInclude Include="PageInorOut.h" />
+    <ClInclude Include="PageParaG.h" />
+    <ClInclude Include="PageProAlg.h" />
+    <ClInclude Include="PageSelect.h" />
+    <ClInclude Include="PageTargetEccentricity.h" />
+    <ClInclude Include="PageTimes.h" />
+    <ClInclude Include="Preserve.h" />
+    <ClInclude Include="PropertyDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="scbarg.h" />
+    <ClInclude Include="sizecbar.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="..\11\SXBtn.h" />
+    <ClInclude Include="type_def.h" />
+    <ClInclude Include="Wilson6.h" />
+    <ClInclude Include="WilsonFrame.h" />
+    <ClInclude Include="..\..\Program Files\Microsoft Visual Studio\VC98\Include\WINUSER.H" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\0.cur" />
+    <CustomBuild Include="res\2.bmp" />
+    <CustomBuild Include="res\20111115032357892_easyicon_cn_24.ico" />
+    <CustomBuild Include="res\20111115032725945_easyicon_cn_32.ico" />
+    <CustomBuild Include="res\3.bmp" />
+    <CustomBuild Include="res\6.bmp" />
+    <CustomBuild Include="res\BGFX.ico" />
+    <CustomBuild Include="res\bitmap13.bmp" />
+    <CustomBuild Include="res\bitmap14.bmp" />
+    <CustomBuild Include="res\bitmap15.bmp" />
+    <CustomBuild Include="res\bitmap16.bmp" />
+    <CustomBuild Include="res\bitmap17.bmp" />
+    <CustomBuild Include="res\bitmap18.bmp" />
+    <CustomBuild Include="res\bitmap19.bmp" />
+    <CustomBuild Include="res\bitmap21.bmp" />
+    <CustomBuild Include="res\bitmap22.bmp" />
+    <CustomBuild Include="res\bitmap4.bmp" />
+    <CustomBuild Include="res\bitmap7.bmp" />
+    <CustomBuild Include="res\bitmap_d.bmp" />
+    <CustomBuild Include="res\chuangan.bmp" />
+    <CustomBuild Include="res\chuanganqi.bmp" />
+    <CustomBuild Include="res\chuli.ico" />
+    <CustomBuild Include="res\Created.ico" />
+    <CustomBuild Include="res\created2.ico" />
+    <CustomBuild Include="res\cursor1.cur" />
+    <CustomBuild Include="res\cursor2.cur" />
+    <CustomBuild Include="res\cursor5.cur" />
+    <CustomBuild Include="res\cursor6.cur" />
+    <CustomBuild Include="res\czd.ico" />
+    <CustomBuild Include="res\denglutubiao1.bmp" />
+    <CustomBuild Include="res\desktop.bmp" />
+    <CustomBuild Include="res\disenable.ico" />
+    <CustomBuild Include="res\Document0000.cur" />
+    <CustomBuild Include="res\enable.ico" />
+    <CustomBuild Include="res\folder.ico" />
+    <CustomBuild Include="res\ico00001.ico" />
+    <CustomBuild Include="res\ico00002.ico" />
+    <CustomBuild Include="res\ico00003.ico" />
+    <CustomBuild Include="res\ico00004.ico" />
+    <CustomBuild Include="res\ico00005.ico" />
+    <CustomBuild Include="res\ico00006.ico" />
+    <CustomBuild Include="res\ico00007.ico" />
+    <CustomBuild Include="res\ico00008.ico" />
+    <CustomBuild Include="res\ico00009.ico" />
+    <CustomBuild Include="res\ico00010.ico" />
+    <CustomBuild Include="res\ico00011.ico" />
+    <CustomBuild Include="res\ico00012.ico" />
+    <CustomBuild Include="res\icon10.ico" />
+    <CustomBuild Include="res\icon11.ico" />
+    <CustomBuild Include="res\icon12.ico" />
+    <CustomBuild Include="res\icon13.ico" />
+    <CustomBuild Include="res\icon14.ico" />
+    <CustomBuild Include="res\icon15.ico" />
+    <CustomBuild Include="res\icon16.ico" />
+    <CustomBuild Include="res\icon17.ico" />
+    <CustomBuild Include="res\icon18.ico" />
+    <CustomBuild Include="res\icon19.ico" />
+    <CustomBuild Include="res\icon20.ico" />
+    <CustomBuild Include="res\icon21.ico" />
+    <CustomBuild Include="res\icon24.ico" />
+    <CustomBuild Include="res\icon25.ico" />
+    <CustomBuild Include="res\icon28.ico" />
+    <CustomBuild Include="res\icon29.ico" />
+    <CustomBuild Include="res\icon3.ico" />
+    <CustomBuild Include="res\icon30.ico" />
+    <CustomBuild Include="res\icon32.ico" />
+    <CustomBuild Include="res\icon33.ico" />
+    <CustomBuild Include="res\icon4.ico" />
+    <CustomBuild Include="res\icon5.ico" />
+    <CustomBuild Include="res\icon6.ico" />
+    <CustomBuild Include="res\icon7.ico" />
+    <CustomBuild Include="res\icon8.ico" />
+    <CustomBuild Include="res\icon9.ico" />
+    <CustomBuild Include="res\IDI_DISABLE.ico" />
+    <CustomBuild Include="res\kebiao.ico" />
+    <CustomBuild Include="res\lizhu.bmp" />
+    <CustomBuild Include="res\lizhu2.bmp" />
+    <CustomBuild Include="res\osx10.ico" />
+    <CustomBuild Include="res\pingtai.bmp" />
+    <CustomBuild Include="res\pingtai2.bmp" />
+    <CustomBuild Include="res\pingtaidisplay.bmp" />
+    <CustomBuild Include="res\pingtaidisplay12.bmp" />
+    <CustomBuild Include="res\pintai.bmp" />
+    <CustomBuild Include="2012-3-31\res\pist.ico" />
+    <CustomBuild Include="res\pist.ico" />
+    <CustomBuild Include="res\pmd.ico" />
+    <CustomBuild Include="res\PPFX.ico" />
+    <CustomBuild Include="res\pxd.ico" />
+    <CustomBuild Include="res\r.bmp" />
+    <CustomBuild Include="res\R2.bmp" />
+    <CustomBuild Include="res\reset.bmp" />
+    <CustomBuild Include="res\right.ico" />
+    <CustomBuild Include="res\rotcyl.ico" />
+    <CustomBuild Include="res\×Ô½¨Í¼±ê\Rzhouyou.bmp" />
+    <CustomBuild Include="res\setorigi.ico" />
+    <CustomBuild Include="res\setother.ico" />
+    <CustomBuild Include="res\stop.bmp" />
+    <CustomBuild Include="res\stop.ico" />
+    <CustomBuild Include="res\taiping.bmp" />
+    <CustomBuild Include="res\tiaoping.bmp" />
+    <CustomBuild Include="res\tiaoxin.bmp" />
+    <CustomBuild Include="res\tiaoxinping.bmp" />
+    <CustomBuild Include="res\tleft.ico" />
+    <CustomBuild Include="res\Toolbar.bmp" />
+    <CustomBuild Include="res\toolbar1.bmp" />
+    <CustomBuild Include="res\toolbar2.bmp" />
+    <CustomBuild Include="res\toolbar3.bmp" />
+    <CustomBuild Include="res\toolbar4.bmp" />
+    <CustomBuild Include="res\toolbar5.bmp" />
+    <CustomBuild Include="res\tree_closed.bmp" />
+    <CustomBuild Include="res\tree_opened.bmp" />
+    <CustomBuild Include="res\tright.ico" />
+    <CustomBuild Include="res\trt.ico" />
+    <CustomBuild Include="res\txd.ico" />
+    <CustomBuild Include="res\tzd.ico" />
+    <CustomBuild Include="res\Wilson6.ico" />
+    <CustomBuild Include="res\Wilson6.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\zhuzhou.bmp" />
+    <CustomBuild Include="res\zhuzhou2.bmp" />
+    <CustomBuild Include="res\zhuzhou3.bmp" />
+    <CustomBuild Include="res\zxd.ico" />
+    <CustomBuild Include="res\µÇÂ¼.ico" />
+    <CustomBuild Include="res\É¾³ý(ÐÂ).ico" />
+    <CustomBuild Include="res\ÏîÄ¿3.ico" />
+    <CustomBuild Include="res\×¢Ïú.ico" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\删除(新).ico" />
+    <None Include="res\注销.ico" />
+    <None Include="res\登录.ico" />
+    <None Include="res\项目3.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Wilson6.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
